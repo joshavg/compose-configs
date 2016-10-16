@@ -1,0 +1,9 @@
+version: '2'
+services:
+  db:
+    image: neo4j
+    ports:
+      - "7474:7474"
+    volumes:
+      - "~/docker/neo4j:/data"
+
